@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat-Regular;
+  background: #F5F6FA;
+}
+
+.roll{
+  padding-bottom: 98px;
+  background-color: #fff;
+}
+header{
+  padding: 0 20px;
+  background: #fff;;
+}
+header .top{
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  vertical-align: bottom;
+  align-items: center;
+  padding: 0 25px;
+}
+
+header .top img{
+  height: 32px;
+  width: 32px;
+}
+header .top img:first-child{
+  height: 27px;
+  width: 198px;
+}
+header .banner{
+  text-align: center;
+  margin-bottom: 10px;
+}
+header .banner img{
+  width: 710px;
+  height: 400px;
+}
+.connect {
+  height: 147px;
+  display: flex;
+  background: #fff;;
+}
+.connect div{
+  width: 25%;
+  text-align: center;
+}
+
+.connect>div img{
+  width: 58px;
+  height: 56px;
+  margin-top: 12px;
+}
+
+.connect>div span{
+  display: block;
+  font-size: 22px;
+  font-family: Montserrat-SemiBold;
+  color: #434B5F;
+  margin-top: 12px;
+}
+.connect section{
+  height: 22px;
+  background-color:#F5F6FA;
+}
+
+.contract{
+  padding: 0 30px;
+}
+
+.contract .headline{
+  font-family: Montserrat-ExtraBold;
+  font-size: 36px;
+  color: #1F2126;
+  height: 58px;
+  padding-top: 30px;
+  font-weight: 700;
+}
+.contract li{
+  height: 112px;
+  line-height: 112px;
+  border-bottom: 1px solid #8E939F;
+}
+.contract li:last-child{
+  border-bottom:none;
+}
+.contract .desc{
+  flex: 1;
+}
+.contract .desc .title{
+  font-family: Montserrat-Bold;
+  font-size: 32px;
+  color: #1F2126;
+  font-weight: 700;
+}
+.contract .desc .subtitle{
+  font-size: 20px;
+  color: #8E939F;
+}
+.contract .mount{
+  color: #1F2126;
+  font-size: 28px;
+  font-weight: 600;
+  margin-right: 60px;
+}
+.contract .btn{
+  background: #04B7AF;
+  width: 120px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+section{
+  height: 24px;
+  background: #F5F6FA;
+}
+.contract ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contract li{
+  display: flex;
+  height: 112px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  z-index:999;
+  width: 100%;
+  font-size: 20px;
+  background-color: #fff;
+}
+footer>div{
+  width: 25%;
+  height: 98px;
+  text-align: center;
+}
+
+footer>div.active{
+  color: #3D15AA;
+  font-family: Montserrat-SemiBold;
+  font-weight: 700;
+}
+
+footer>div img{
+  width: 38px;
+  height: 38px;
+  margin-top: 12px;
+}
+
+footer>div span{
+  display: block;
+}
